@@ -20,8 +20,10 @@ Step 1 - Inventory and select room mailboxes
     (all, single numbers, comma-separated, ranges, or combinations).
     Each selected room is validated for type, address-list visibility,
     and SMTP uniqueness before proceeding.
+    
 <img width="1076" height="325" alt="image" src="https://github.com/user-attachments/assets/0e1a2d78-d51e-4dd3-81b2-06ed88eae083" />
 <img width="853" height="125" alt="image" src="https://github.com/user-attachments/assets/9777de10-9171-48f5-9ca6-f229f3501c4a" />
+
 
 Step 2 - Verify and complete Place metadata
     Retrieves the current Place properties for each room via Get-Place
@@ -30,6 +32,7 @@ Step 2 - Verify and complete Place metadata
     accepted by typing / (slash). Tags are always offered as a numbered
     selection menu, even when all other fields are already filled.
     Changes are applied with Set-Place and verified immediately.
+    
 <img width="1007" height="617" alt="image" src="https://github.com/user-attachments/assets/fd565e9e-2c3d-4a30-8810-1cd6e62265c6" />
 
 
@@ -38,6 +41,8 @@ Step 3 - Link or create Room Lists
     room to an existing list or create a new one. Uniqueness checks are
     performed before creating a new Room List. Membership is verified
     after adding via Get-DistributionGroupMember.
+    
 <img width="921" height="383" alt="image" src="https://github.com/user-attachments/assets/9bcfc1d2-07fb-414e-a7d3-4ea4e2407add" />
+
 
 At the end of each run a summary is printed per room. The operator can choose to run the script again for additional rooms without reconnecting.
