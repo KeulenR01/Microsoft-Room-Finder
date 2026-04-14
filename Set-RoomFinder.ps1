@@ -75,8 +75,8 @@
     .\Set-RoomFinder.ps1 -LogPath "C:\Logs\roomfinder.log"
 
 .NOTES
-    Author  : Rik Keulen
-    Version : 1.0.3
+    Author  : <your name>
+    Version : 1.0.0
 #>
 
 param(
